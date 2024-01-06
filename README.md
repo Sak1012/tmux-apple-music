@@ -36,4 +36,4 @@
 
 - This will probably throw an error but don't mind it (Working on it)
 - Now something like this should be visible
-  ![screenshot](/Users/sak/tmuxapple/Screenshot.png)
+  ![screenshot](Screenshot.png)
