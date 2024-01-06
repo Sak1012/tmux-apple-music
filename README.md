@@ -37,4 +37,5 @@
 - This will probably throw an error but don't mind it (Working on it)
 
 - Now the current music should be visible at status-right
+
   ![screenshot](Screenshot.png)
