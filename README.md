@@ -42,23 +42,23 @@
 
 - Now something like this should be visible at status-right
 
-![screeshot while playing](Screenshot.png)
+![screeshot while playing](imgs/Screenshot.png)
 
 ## Working
 
 - The default configuration returns the current song and the artist
 
-![screeshot while playing](Default.png)
+![screeshot while playing](imgs/Default.png)
 
 - The Status refreshes for every 10 seconds
 
 - The Status shows `Paused` while paused
 
-![screeshot while paused](Paused.png)
+![screeshot while paused](imgs/Paused.png)
 
 - `No Music Playing` will be shown when the app is closed
 
-![screeshot while closed](Closed.png)
+![screeshot while closed](imgs/Closed.png)
 
 ## Configuration
 
