@@ -35,5 +35,6 @@
 ```
 
 - This will probably throw an error but don't mind it (Working on it)
-- Now something like this should be visible
+
+- Now the current music should be visible at status-right
   ![screenshot](Screenshot.png)
