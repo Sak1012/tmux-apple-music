@@ -74,6 +74,29 @@ kill lua
 
 - **This returns the PID of the runnig lua process so make sure no other lua process are runing in the background**
 
+### To Change application
+
+- **You can use other applications like Spotify as it has the same state as Apple Music**
+- To do it you have to change the application in `local command` to
+
+```lua
+local command = "osascript -e 'tell application \"Spotify\"' "
+		.. "-e 'if it is running then' "
+		.. "-e 'if player state is playing then' "
+		.. "-e 'set currentTrack to name of current track' "
+		.. "-e 'set currentArtist to artist of current track' "
+		.. "-e 'set durationInSeconds to duration of current track' "
+		.. "-e 'set currentPos to player position' "
+		.. "-e 'return currentTrack & \" by \" & currentArtist ' "
+		.. "-e 'else' "
+		.. "-e 'return \"⏸️  Paused\"  ' "
+		.. "-e 'end if' "
+		.. "-e 'else' "
+		.. "-e 'return \"No music playing\"' "
+		.. "-e 'end if' "
+		.. "-e 'end tell' "
+```
+
 ### Config Options
 
 - To display the current album with the song and artist change `local command` in `update_tmux_music.lua` to
