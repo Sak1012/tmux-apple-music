@@ -78,6 +78,7 @@ kill lua
 
 - **You can use other applications like Spotify as it has the same state as Apple Music**
 - To do it you have to change the application in `local command` to
+- If you are exclusively using Spotify there are other better options out there
 
 ```lua
 local command = "osascript -e 'tell application \"Spotify\"' "
